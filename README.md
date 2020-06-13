@@ -28,6 +28,16 @@ set GOARCH=386
 go build -o gin_project_genetator_linux_386 main.go
 
 ```
+# 使用
+```shell
+Example:
+#-----------------------------------RUN----------------------------------#
+# Windws amd64 :  gin_project_genetator_windows_amd64.exe <project_name> #
+# Windws 386 :      gin_project_genetator_windows_386.exe <project_name> #
+# Linux amd64 :         gin_project_genetator_linux_amd64 <project_name> #
+# Linux 386 :             gin_project_genetator_linux_386 <project_name> #
+#------------------------------------------------------------------------#
+```
 ## 生成目录结构
 ```shell
 project/
